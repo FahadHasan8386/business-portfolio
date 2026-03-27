@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>NexGen | Digital Innovation Agency</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Google Fonts + Font Awesome -->
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+<!-- Custom Cursor Glow -->
+<div class="cursor-glow" id="cursorGlow"></div>
+
+<!-- Dark/Light Mode Toggle -->
+<button class="theme-toggle" id="themeToggleBtn" aria-label="Night mode">
+  <i class="fas fa-moon"></i>
+</button>
+
+<!-- Header / Navbar - Premium Design -->
+<header>
+  <nav class="navbar">
+    <div class="nav-brand">
+      <div class="brand-icon">
+        <i class="fas fa-cube"></i>
+      </div>
+      <div class="brand-text">
+        <span class="brand-name">NEXGEN</span>
+        <span class="brand-tagline">digital studio</span>
+      </div>
+    </div>
+    <ul class="nav-menu">
+      <li><a href="#home" class="nav-link active">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#services" class="nav-link">Services</a></li>
+      <li><a href="#portfolio" class="nav-link">Work</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a href="#contact" class="btn-small">Let's Talk <i class="fas fa-arrow-right"></i></a>
+    </div>
+    <div class="mobile-menu-btn" id="mobileMenuBtn">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="pulse-dot"></span>
+        DIGITAL INNOVATION HUB
+      </div>
+      <h1 class="hero-title">
+        We Craft <span class="gradient-text">Future-Ready</span><br>
+        Digital Experiences
+      </h1>
+      <p class="hero-desc">
+        A creative powerhouse delivering stunning web apps, full-stack ecosystems, 
+        and intelligent automation that drives real business growth.
+      </p>
+      <div class="hero-buttons">
+        <a href="#contact" class="btn btn-primary">
+          Start a Project <i class="fas fa-arrow-right"></i>
+        </a>
+        <a href="#portfolio" class="btn btn-outline">
+          Explore Work <i class="fas fa-play"></i>
+        </a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat-item">
+          <span class="stat-number">70+</span>
+          <span class="stat-label">Projects</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-number">98%</span>
+          <span class="stat-label">Satisfaction</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-number">24/7</span>
+          <span class="stat-label">Support</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">who we are</span>
+        <h2>Crafting Digital Excellence</h2>
+        <p class="section-subtitle">We blend strategy, design, and engineering to build brands that lead.</p>
+      </div>
+      <div class="about-grid">
+        <div class="about-content">
+          <p class="about-lead"><strong>NexGen Agency</strong> is a full-service digital agency obsessed with performance and aesthetic.</p>
+          <p>We deliver robust ASP.NET applications, modern full-stack solutions, and immersive interfaces that drive real business growth. Our team combines technical expertise with creative vision.</p>
+          <div class="about-features">
+            <div class="feature"><i class="fas fa-check-circle"></i> Enterprise-Grade Solutions</div>
+            <div class="feature"><i class="fas fa-check-circle"></i> Agile Development Process</div>
+            <div class="feature"><i class="fas fa-check-circle"></i> Client-Centric Approach</div>
+          </div>
+          <a href="#contact" class="btn btn-primary">Work With Us</a>
+        </div>
+        <div class="about-image">
+          <div class="image-wrapper">
+            <img src="https://picsum.photos/id/104/600/500" alt="creative team">
+            <div class="image-overlay"></div>
+          </div>
+          <div class="experience-badge">
+            <span class="exp-years">4+</span>
+            <span class="exp-text">Years of<br>Innovation</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="services">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">what we offer</span>
+        <h2>Core Capabilities</h2>
+        <p class="section-subtitle">Solutions that scale, design that inspires</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="card-icon"><i class="fab fa-microsoft"></i></div>
+          <h3>ASP.NET Core</h3>
+          <p>Enterprise-grade web apps with security, speed, and cloud-ready architecture.</p>
+          <div class="card-hover-line"></div>
+        </div>
+        <div class="service-card">
+          <div class="card-icon"><i class="fas fa-layer-group"></i></div>
+          <h3>Full Stack Dev</h3>
+          <p>React, Vue, Node, C# — end-to-end development for any complex platform.</p>
+          <div class="card-hover-line"></div>
+        </div>
+        <div class="service-card">
+          <div class="card-icon"><i class="fas fa-globe"></i></div>
+          <h3>Web Applications</h3>
+          <p>Custom portals, CRM, dashboards — tailored to your unique business logic.</p>
+          <div class="card-hover-line"></div>
+        </div>
+        <div class="service-card">
+          <div class="card-icon"><i class="fas fa-desktop"></i></div>
+          <h3>Desktop Solutions</h3>
+          <p>Windows native apps with modern UI, offline capabilities and high performance.</p>
+          <div class="card-hover-line"></div>
+        </div>
+        <div class="service-card">
+          <div class="card-icon"><i class="fas fa-palette"></i></div>
+          <h3>UI/UX Design</h3>
+          <p>Human-centered interfaces that convert visitors into loyal customers.</p>
+          <div class="card-hover-line"></div>
+        </div>
+        <div class="service-card">
+          <div class="card-icon"><i class="fas fa-chart-line"></i></div>
+          <h3>SEO & Growth</h3>
+          <p>Optimized performance, maintenance, and digital strategy for scale.</p>
+          <div class="card-hover-line"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="portfolio">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">featured projects</span>
+        <h2>Latest Creations</h2>
+        <p class="section-subtitle">Real impact, real results</p>
+      </div>
+      <div class="portfolio-grid">
+        <div class="portfolio-card">
+          <div class="portfolio-img">
+            <img src="https://picsum.photos/id/13/500/350" alt="Ecommerce">
+            <div class="portfolio-overlay">
+              <a href="#" class="project-link"><i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <h3>LuxeShop E‑commerce</h3>
+            <p>Multi-vendor marketplace with AI recommendations & payment integration.</p>
+            <div class="portfolio-tags">
+              <span>ASP.NET</span>
+              <span>React</span>
+              <span>Stripe</span>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-card">
+          <div class="portfolio-img">
+            <img src="https://picsum.photos/id/20/500/350" alt="Dashboard">
+            <div class="portfolio-overlay">
+              <a href="#" class="project-link"><i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <h3>Analytics Hub</h3>
+            <p>Real-time KPI dashboard for enterprise with drill-down reports.</p>
+            <div class="portfolio-tags">
+              <span>Full Stack</span>
+              <span>SignalR</span>
+              <span>D3.js</span>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-card">
+          <div class="portfolio-img">
+            <img src="https://picsum.photos/id/26/500/350" alt="Fintech">
+            <div class="portfolio-overlay">
+              <a href="#" class="project-link"><i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <h3>Fintech Platform</h3>
+            <p>Secure banking portal with 2FA, transaction monitoring & analytics.</p>
+            <div class="portfolio-tags">
+              <span>ASP.NET Core</span>
+              <span>Angular</span>
+              <span>Azure</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section with WhatsApp Integration -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">get in touch</span>
+        <h2>Let's Build Something Great</h2>
+        <p class="section-subtitle">Have a vision? Let's turn it into reality.</p>
+      </div>
+      <div class="contact-wrapper">
+        <div class="contact-info">
+          <h3>Start a Conversation</h3>
+          <p>We're just a message away. Reach out through any channel below.</p>
+          <div class="contact-methods">
+            <div class="contact-method" onclick="window.open('https://wa.me/8801996918386?text=Hello%20NexGen%2C%20I%27m%20interested%20in%20your%20services.%20Please%20share%20more%20details.', '_blank')">
+              <div class="method-icon whatsapp-bg">
+                <i class="fab fa-whatsapp"></i>
+              </div>
+              <div class="method-details">
+                <strong>WhatsApp</strong>
+                <span>+880 1996-918386</span>
+                <small>Click to chat instantly</small>
+              </div>
+              <i class="fas fa-arrow-right method-arrow"></i>
+            </div>
+            <div class="contact-method">
+              <div class="method-icon">
+                <i class="fas fa-phone-alt"></i>
+              </div>
+              <div class="method-details">
+                <strong>Phone</strong>
+                <span>+880 1996-918386</span>
+                <small>Mon-Fri, 9am-6pm</small>
+              </div>
+            </div>
+            <div class="contact-method">
+              <div class="method-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="method-details">
+                <strong>Email</strong>
+                <span>hello@nexgen.agency</span>
+                <small>24/7 response</small>
+              </div>
+            </div>
+            <div class="contact-method">
+              <div class="method-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="method-details">
+                <strong>Location</strong>
+                <span>Dhaka, Bangladesh</span>
+                <small>Global remote team</small>
+              </div>
+            </div>
+          </div>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="contact-form">
+          <form id="contactForm">
+            <div class="form-group">
+              <input type="text" placeholder="Full Name" required>
+            </div>
+            <div class="form-group">
+              <input type="email" placeholder="Email Address" required>
+            </div>
+            <div class="form-group">
+              <input type="text" placeholder="WhatsApp Number (Optional)">
+            </div>
+            <div class="form-group">
+              <textarea rows="5" placeholder="Tell us about your project idea..."></textarea>
+            </div>
+            <div class="form-actions">
+              <button type="submit" class="btn btn-primary btn-block">
+                Send Message <i class="fas fa-paper-plane"></i>
+              </button>
+              <button type="button" class="btn-whatsapp" onclick="sendWhatsAppMessage()">
+                <i class="fab fa-whatsapp"></i> Chat on WhatsApp
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- Footer - Premium Design -->
+<footer class="footer">
+  <div class="footer-top">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col brand-col">
+          <div class="footer-logo">
+            <i class="fas fa-cube"></i>
+            <div>
+              <span class="logo-name">NEXGEN</span>
+              <span class="logo-tag">digital studio</span>
+            </div>
+          </div>
+          <p>Next-gen digital studio focused on performance, innovation, and design excellence. We transform ideas into powerful digital realities.</p>
+          <div class="footer-badges">
+            <span><i class="fas fa-award"></i> Top Rated Agency</span>
+            <span><i class="fas fa-globe"></i> Global Reach</span>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#">ASP.NET Development</a></li>
+            <li><a href="#">Full Stack Applications</a></li>
+            <li><a href="#">UI/UX Design</a></li>
+            <li><a href="#">Cloud Solutions</a></li>
+            <li><a href="#">Desktop Software</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col newsletter-col">
+          <h4>Newsletter</h4>
+          <p>Get latest insights and exclusive offers</p>
+          <div class="newsletter-form">
+            <input type="email" placeholder="Your email address">
+            <button><i class="fas fa-arrow-right"></i></button>
+          </div>
+          <div class="footer-contact-info">
+            <p><i class="fas fa-phone-alt"></i> +880 1996-918386</p>
+            <p><i class="fab fa-whatsapp"></i> WhatsApp: 01996918386</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <p>&copy; 2026 NexGen Agency — Where ideas become digital reality. All Rights Reserved.</p>
+      <div class="footer-bottom-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
